@@ -1,6 +1,6 @@
 # Lift Off
 
-Casual 3D game built using Unity
+Casual 3D game built using Unity. You can play [here](https://tessarobyn.github.io/lift-off/)
 
 ## Rules
 
