@@ -13,7 +13,7 @@ public class PlayerControlMovement : MonoBehaviour
     void FixedUpdate()
     {
         time += Time.deltaTime;
-        if (time >= 5f && drag > .75f)
+        if (time >= 5f && drag > .5f)
         {
             time = time % 5f;
             drag-=.05f;

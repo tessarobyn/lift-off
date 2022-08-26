@@ -50,7 +50,7 @@ public class SpawnPlanets : MonoBehaviour
         int index = rand.Next(planets.Length);
         Object planet = Resources.Load(planets[index]);
         var planetObj = Instantiate(planet,
-            Camera.main.ScreenToWorldPoint(new Vector3(rand.Next(0, Camera.main.pixelWidth), Camera.main.pixelHeight + 300, Camera.main.nearClipPlane + 30)),
+            Camera.main.ScreenToWorldPoint(new Vector3(rand.Next(0, Camera.main.pixelWidth), Camera.main.pixelHeight + 400, Camera.main.nearClipPlane + 30)),
             Quaternion.Euler(new Vector3(rand.Next(0, 360), rand.Next(0, 360), rand.Next(0, 360)))) as GameObject; 
         planetObj.tag = "Planet";
         planetObjects.Add(planetObj);
